@@ -1,0 +1,161 @@
+/* Tổng thể trang */
+body {
+    margin: 0;
+    font-family: 'Arial', Georgia, 'Times New Roman',;
+    background: linear-gradient(to right, #a8d8ff, #80deea);
+    color: #005b99;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header */
+.header-title {
+    background-color: rgba(0, 140, 186, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2.5em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 30px;
+    position: relative;
+}
+
+.hero-image {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    background-color: #007bb5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #005b99;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    font-size: 0.9em;
+    color: #005b99;
+    padding: 10px 0;
+    background-color: rgba(0, 140, 186, 0.8);
+}
+/* Tổng thể trang */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #a8d8ff, #80deea); /* Nền gradient xanh dịu */
+    color: #005b99; /* Màu chữ chính */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container chung */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #007bb5; /* Nền header xanh đậm */
+    color: white;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    background-color: #007bb5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #005b99; /* Màu xanh tối hơn khi hover */
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #007bb5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Đảm bảo footer luôn nằm ở cuối trang */
+}
+
+footer p {
+    margin: 0;
+}
+/* Nội dung trang thứ 2 (content.html) */
+.content-text {
+    font-size: 1.5em;  /* Kích thước chữ sẽ lớn hơn */
+    line-height: 1.8;
+    color: #333;  /* Màu chữ tối cho dễ đọc */
+    max-width: 800px;  /* Giới hạn chiều rộng của nội dung */
+    margin: 20px auto;  /* Căn giữa với khoảng cách xung quanh */
+    text-align: justify;  /* Canh đều văn bản */
+}
